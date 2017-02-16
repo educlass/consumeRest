@@ -20,6 +20,12 @@ public class Curso implements Serializable{
 		this.nome = nome;
 		this.duracao = duracao;
 	}
+	
+//	public Curso(Curso curso) {
+//		this.id = curso.getId();
+//		this.nome = curso.getNome();
+//		this.duracao = curso.getDuracao();
+//	}
 
 	public Integer getId() {
 		return id;
